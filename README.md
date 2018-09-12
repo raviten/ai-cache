@@ -4,7 +4,7 @@ Invalidating cache using AI models
 
 
 ## High Level Description
-Right now Cache is invalidated based on the settings and inavlidate time is same in all conditions.
+Right now Cache is invalidated based on hard coded settings. Inavlidate time is constant in all conditions.
 
 #### Improvement:
     Dynamically allocate TTL. 
