@@ -6,7 +6,7 @@ Invalidating cache using AI models
 Right now Cache is invalidated based on the settings and inavlidate time is same in all conditions.
 
 #### Improvement:
-    Dynamically allocate TTL to each key. 
+    Dynamically allocate TTL. 
 Allocating dynamic TTL will reduce overall hits to DB while storing less data in CACHE Service.
 
 
