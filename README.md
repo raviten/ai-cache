@@ -1,4 +1,5 @@
 # ai-cache [Draft]
+
 Invalidating cache using AI models
 
 
@@ -15,9 +16,10 @@ A process to generate Dynamic TTL using cache access patterns as input to machin
 
  
 Everytime a key is accessed in cache we store key and timestamp. 
-Input:
-  time of day
-  accessed key
+
+* Input:
+  1. time of day
+  2. accessed key
   
 
 V1:
